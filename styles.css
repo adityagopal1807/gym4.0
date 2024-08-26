@@ -38,11 +38,12 @@ nav {
 .logo-container {
     display: flex;
     align-items: center;
+    margin-right: 20px; /* Space between the logo and the menu */
 }
 
 /* Logo image styling */
 .logo-img {
-    height: 120px; /* Adjust size as needed */
+    height: 70px; /* Increased size for better visibility */
     width: auto;
     margin-right: 10px; /* Space between the image and text */
 }
@@ -66,6 +67,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    margin-left: auto; /* Ensure menu is aligned to the right */
 }
 
 nav ul li {
